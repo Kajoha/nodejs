@@ -1,0 +1,10 @@
+function factorial (n) {
+let total = 1;
+for (let index = 1; index <= n; index++) {
+  total = total * index;
+  }
+return total;
+}
+factorial(1)
+factorial(0)
+factorial(5)

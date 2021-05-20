@@ -1,0 +1,13 @@
+function dividir(a, b) {
+const error = 'Error';
+if (a == 0) {
+  return error;
+  } if (b == 0) {
+  return error;
+  } else {
+  return a / b;
+  }
+ }
+dividir(0, 8)
+dividir(80, 90)
+dividir (8, 0)

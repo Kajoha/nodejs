@@ -1,0 +1,4 @@
+ function sum(n) {
+ let result = n*(n +1) / 2;
+ return result;}
+sum(15)

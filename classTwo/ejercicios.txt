@@ -1,0 +1,71 @@
+// Ejercicio 1
+
+function factorial (n) {
+let total = 1;
+for (let index = 1; index <= n; index++) {
+  total = total * index;
+  }
+return total;
+}
+
+factorial(1)
+factorial(0)
+factorial(5)
+
+// Ejercicio 2
+
+function mayor(c, d, e) { 
+if (c > d & c > e) { 
+return `El número mayor es ${c}`;
+} if (d > c & d > e) { 
+return `El número mayor es ${d}`;
+} else { 
+return `El número mayor es ${e}`;
+} }
+
+mayor(5, 12, 1)
+mayor(10, 7, 3)
+mayor(5, 3, 22)
+
+// Ejercicio 3 
+
+function promedio(f, g, h) {
+    const suma = f + g + h;
+    return suma/3;
+}
+promedio(8, 5, 8)
+promedio(0, 10, 0) 
+
+// Ejercicio 4
+
+function negativo(i) {
+    if (i == 0) {
+     return "Ingrese un numero distinto a 0";
+} if (i > 0) { 
+return "El número ingresado es positivo"; 
+} else { 
+return "El número ingresado es negativo";
+} }
+
+negativo(-8)
+negativo(0)
+negativo(8)
+
+// Ejercicio 5 
+
+function dividir(a, b) {
+const error = 'Error';
+if (a == 0) {
+  return error;
+  } if (b == 0) {
+  return error;
+  } else {
+  return a / b;
+  } }
+
+dividir(0, 8)
+dividir(80, 90)
+dividir (8, 0)
+
+
+

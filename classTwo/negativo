@@ -1,0 +1,6 @@
+function negativo(i) {
+    if (i == 0) {
+          return "Ingrese un numero distinto a 0";} if (i > 0) { return "El número ingresado es positivo"; } else { return "El número ingresado es negativo"}}
+negativo(-8)
+negativo(0)
+negativo(8)

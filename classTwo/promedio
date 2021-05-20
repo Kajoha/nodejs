@@ -1,0 +1,5 @@
+function promedio(f, g, h) {
+    const suma = f + g + h;
+    return suma/3;}
+promedio(8, 5, 8)
+promedio(0, 10, 0)

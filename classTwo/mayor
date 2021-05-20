@@ -1,0 +1,4 @@
+ function mayor(c, d, e) { if (c > d & c > e) { return `El número mayor es ${c}`} if (d > c & d > e) { return `El número mayor es ${d}`} else { return `El número mayor es ${e}`} }
+mayor(5, 12, 1)
+mayor(10, 7, 3)
+mayor(5, 3, 22)
